@@ -28,7 +28,8 @@ p {
 
 body {
     margin-block: auto;
-    background: #dddddd;
+    background-image: url("../Assets/golden-particles-bokeh-background_52683-22159.jpg");
+    background-color: #cccccc;
 }
 
 img.portfolio-img {
