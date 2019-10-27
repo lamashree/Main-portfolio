@@ -21,7 +21,7 @@ p {
 .container {
     background: #cccccc;
     width: 960px;
-    height: 400px;
+    height: 1850px;
     margin: auto;
     overflow-block: auto;
 }
@@ -33,8 +33,8 @@ body {
 }
 
 img.portfolio-img {
-    height: 150px;
-    width: 150px;
+    height: 275px;
+    width: 525px;
 }
 
 head {
@@ -85,11 +85,11 @@ head {
 }
 
 .imgsource {
-    height: 700px;
+    height: 1850px;
     margin-bottom: 20px;
     background: #ffffff;
     margin: 0 auto;
-    width: 600px;
+    width: 700px;
     margin-top: -30px;
 }
 
@@ -97,7 +97,7 @@ footer {
     text-align: center;
     background: #ffffff;
     padding: 20px;
-    /* position: fixed; */
+    position: fixed;
     margin-bottom: 0px;
     width: 100%;
     margin-top: 20px;
@@ -375,3 +375,18 @@ body {
 }
 
 }
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
