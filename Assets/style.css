@@ -14,9 +14,9 @@ header {
     border-color: #cccccc;
 }
 
-p {
-    /* float:left; */
-}
+/* p {
+    float:left;
+} */
 
 .container {
     background: #cccccc;
@@ -140,7 +140,7 @@ h1 {
 div.name {
     margin-top: 20px;
     /* padding: 20px; */
-    color: #4aaaa5
+    /* color: #4aaaa5 */
 }
 
 label.nameinput {
@@ -150,13 +150,13 @@ label.nameinput {
 div.email {
     margin-top: 20px;
     /* padding: 20px; */
-    color: #4aaaa5
+    /* color: #4aaaa5 */
 }
 
 div.mgs {
     margin-top: 20px;
     /* padding: 20px; */
-    color: #4aaaa5
+    /* color: #4aaaa5 */
 }
 
 div.name.input {
@@ -171,6 +171,11 @@ Button {
     width: 100px;
 }
 
+.details {
+    width: 641px;
+    text-align: center;
+
+}
 #messageinput {
     padding: 30px;
     width: 869px;
@@ -207,7 +212,6 @@ Button {
         margin-left: 70px;
         margin-top: -28px;
         margin-right: 340px;
-        
     }
     .imgsource {
         height: 654px;
@@ -219,13 +223,13 @@ Button {
         margin-right: 144px;
         margin-left: 70px;
     }
-    #details {
-        width: auto;
+    .details {
+        width: auto; 
         display: inline-block;
         position: absolute;
-        right: 37px;
-        padding-top: 20px;
-        /* margin-right: 115px; */
+     right: 37px; 
+         padding-top: 20px; 
+        margin-right: 115px;
     }
     header {
         background: #ffffff;
@@ -259,7 +263,7 @@ Button {
         ;
         /* margin-left: 35px; */
         margin-top: 250px;
-        }
+    }
     #emailinput {
         padding: 10px;
         width: 300px;
@@ -326,67 +330,60 @@ Button {
         margin-right: 10px;
         margin-left: 90px;
     }
-
-.imgsource {
-    height: 699px;
-    margin-bottom: 20px;
-    background: #ffffff;
-    margin: auto;
-    width: 335px;
-    display: block;
-    margin-left: 71px;
-    overflow: scroll;
+    .imgsource {
+        height: 699px;
+        margin-bottom: 20px;
+        background: #ffffff;
+        margin: auto;
+        width: 335px;
+        display: block;
+        margin-left: 71px;
+        overflow: scroll;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-top: 100px;
+        width: 592px;
+        margin-left: -86px;
+    }
+    .main {
+        width: 340px;
+        height: 500px;
+        margin: auto;
+        margin-right: 50px;
+    }
+    #emailinput {
+        padding: 10px;
+        width: 300px;
+    }
+    #messageinput {
+        width: 270px;
+        padding: 30px;
+        /* width: 869px; */
+    }
+    #nameinput {
+        padding: 10px;
+        width: 300px;
+    }
+    body {
+        background: #cccccc;
+    }
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 0px;
-    margin-top: 100px;
-    width: 592px;
-    margin-left: -86px;
-}
-
-.main {
-    width: 340px;
-    height: 500px;
-    margin: auto;
-    margin-right: 50px;
-}
-
-#emailinput {
-    padding: 10px;
-    width: 300px;
-}
-
-#messageinput {
-    width: 270px;
-    padding: 30px;
-    /* width: 869px; */
-}
-
-#nameinput {
-    padding: 10px;
-    width: 300px;
-}
-
-body {
-    background: #cccccc;
-}
-
-}
 html, body {
     height: 100%;
     margin: 0;
-  }
-  .wrapper {
+}
+
+.wrapper {
     min-height: 100%;
-  
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
-  }
-  .footer,
-  .push {
+}
+
+.footer, .push {
     height: 50px;
-  }
+}
